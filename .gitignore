@@ -1,0 +1,11 @@
+/.idea/
+/out/
+/*/target/
+*.iml
+/.mvn/
+*.mvn
+mvnw.cmd
+mvnw
+*.xml
+*.properties
+*.gitignore
