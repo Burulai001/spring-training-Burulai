@@ -26,8 +26,8 @@ public class Payment {
    @Enumerated(EnumType.STRING)
    private Status status;
 
-   @OneToOne
-   @JoinColumn(name = "payment detail id")
+   @OneToOne(cascade = CascadeType.ALL)
+   @JoinColumn(name = "payment_detail_id")
    private PaymentDetail paymentDetail;
 
     public Payment(LocalDate createDate, BigDecimal amount, Status status) {
