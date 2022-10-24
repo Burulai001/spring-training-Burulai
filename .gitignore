@@ -9,3 +9,4 @@ mvnw
 *.xml
 *.properties
 *.gitignore
+/spring-12-Data-Relationship/src/test/
