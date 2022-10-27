@@ -1,4 +1,4 @@
-package com.cydeo.entiry;
+package com.cydeo.entity;
 
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;

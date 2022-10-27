@@ -1,13 +1,11 @@
-package com.cydeo.entiry;
+package com.cydeo.entity;
 
 import com.cydeo.enums.Gender;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.engine.loading.internal.LoadContexts;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "employees")

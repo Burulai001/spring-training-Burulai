@@ -1,4 +1,4 @@
-package com.cydeo.entiry;
+package com.cydeo.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "departments")
 @NoArgsConstructor
 @Data
-public class Department extends BaseEntity{
+public class Department{
 @Id
 private String department;
 private String division;

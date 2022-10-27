@@ -6,7 +6,7 @@
 *.mvn
 mvnw.cmd
 mvnw
-*.xml
-*.properties
+properties
 
 /spring-12-Data-Relationship/src/test/
+/spring-14-Data-Queries/src/test/
