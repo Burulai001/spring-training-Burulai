@@ -17,6 +17,6 @@ public class QueryDemo implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 
-        System.out.println("Burulai"+accountRepository.findByCountry("United State"));
+        System.out.println("findByCountry"+accountRepository.findByCountry("United States"));
     }
 }
